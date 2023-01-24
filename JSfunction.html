@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS基础语法(下)</title>
+</head>
+<body>
+    <script>
+        var student = new Object(); // 和创建数组类似
+        student.name = "大白";
+        student.height = 170;
+        student['weight'] = 150;
+        student.sing = function () {
+        console.log("hello JS");
+        }
+        console.log(student.name);
+        console.log(student['weight']);
+        student.sing();
+        // let student = {
+        //     name: "小黑",
+        //     age: 18,
+        //     num: 201,
+        //     eat: function(){
+        //         console.log("吃饭");
+        //     },
+
+        //     drink: function(){
+        //         console.log("喝水");
+        //     }
+        // };
+        // console.log(student.name);
+        // console.log(student.age);
+        // student.eat();
+        // let num = 10;
+        // function fun1(){
+        //     let num = 20;
+        //     function fun2(){
+        //         return num;
+        //     }
+        //     fun2();
+        // }
+        // fun1();
+        // let f = function(){
+        //     console.log("hello JS");
+        // }
+        // function fun3(a,b,c,d,e){
+        //     return a+b+c+d+e;
+        // }
+        // let ret3 = fun3(10,20);
+        // let ret4 = fun3(30,40,50);
+        // let ret5 = fun3("hello",60,70);
+        // console.log(ret3);
+        // console.log(ret4);
+        // console.log(ret5);
+        // function fun2(x,y){
+        //     return x+y;
+        // }
+        // let ret1 = fun2('hello',12);
+        // let ret2 = fun2('dodo',undefined);
+        // console.log(ret1);
+        // console.log(ret2);
+        // function fun1(x){
+        //     return "hello world";
+        // }
+        // let ret = fun1(1);
+        // console.log(ret);
+        // func1();//调用的位置是无所谓的 写在上面下面都可以
+        // function func1(){
+        //     console.log("hello");
+        // }
+        // func1();
+        // function fuc2(x,y){
+        //     return x+y;
+        // }
+        // let ret = fuc2(1,2);
+        // let ret1 = fuc2('hello',13);
+        // console.log(ret);
+        // console.log(ret1);
+        // function func3(a,b,c,d,e,f){
+        //     return a+b+c+d+e+f;
+        // }
+        // let ret3 = func3(1,2,3);
+        // let ret4 = func3('hello','java',1,12,3);
+        // console.log(ret3);
+        // console.log(ret4);
+    </script>
+</body>
+</html>
