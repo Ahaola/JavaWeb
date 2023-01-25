@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSWebAPI</title>
+</head>
+<body>
+    <!-- <div class="one">abc</div>
+    <div id="two">123</div> -->
+    <!-- <div id="dodo">hello JSWebAPI</div>
+    <button id="heihei">这是获取内容按钮</button>
+    <button id="heihei2">这是修改内容的按钮</button> -->
+    <div id="huge">
+        0
+    </div>
+    <button id="xiena">+</button>
+    <script>
+        let plus = document.querySelector('#xiena');
+        plus.onclick = function() {
+            //获取到huge里面的值
+            let t1 = document.querySelector('#huge');
+            let value = t1.innerHTML;
+            value = parseInt(value);
+            //把value的值加一
+            value = value+1;
+            //把值重新写回去
+            t1.innerHTML = value;
+        }
+        // let a1 = document.querySelector('#heihei');
+        // a1.onclick = function(){
+        //     let b1 = document.querySelector('#dodo');
+        //     console.log(b1.innerHTML);
+        // }
+
+        // let a2 = document.querySelector('#heihei2');
+        // a2.onclick = function(){
+        //     let b2 = document.querySelector('#dodo');
+        //     b2.innerHTML = "这是修改后的一条语句";
+        // }
+        // let obj3 = document.querySelector('div');
+        // console.log(obj3);
+        // let obj1 = document.querySelector('.one');
+        // let obj2 = document.querySelector('#two');
+        // console.log(obj1);
+        // console.log(obj2);
+    </script>
+</body>
+</html>
